@@ -5239,7 +5239,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 @media (min-width:768px) {
-    #nav-toggle {
+    .navbar-toggle {
         display: none
     }
 }
