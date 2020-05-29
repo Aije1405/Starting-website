@@ -1860,7 +1860,6 @@ blockquote {
     padding: 10px 20px;
     margin: 0 0 20px;
     font-size: 17.5px;
-    border-left: 5px solid #eee
 }
 
 blockquote ol:last-child,
@@ -1881,7 +1880,7 @@ blockquote small {
 blockquote .small:before,
 blockquote footer:before,
 blockquote small:before {
-    content: '\2014 \00A0'
+    content: none;
 }
 
 .blockquote-reverse,
