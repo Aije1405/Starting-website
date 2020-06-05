@@ -209,7 +209,7 @@ a:hover {
 .row.row-no-gutters>[class^="col-"], .row.row-no-gutters>[class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
-    /*margin-bottom: 10px;*/
+    margin-bottom: 10px;
 }
 
 #bloc-1-hero h1 {
@@ -470,6 +470,7 @@ a[data-lightbox]:hover::before {
     z-index: 1;
     position: absolute;
     top: 50%;
+    left: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
 }
